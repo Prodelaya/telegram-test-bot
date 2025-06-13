@@ -1,0 +1,85 @@
+{
+  "preguntas": [
+    {
+      "id": "BDD_SE_001",
+      "asignatura": "Bases de Datos",
+      "origen": "Simulacro Elam",
+      "enunciado": "¿Qué es una base de datos?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Un archivo de texto simple"
+        },
+        {
+          "letra": "B",
+          "texto": "Un programa para diseño gráfico"
+        },
+        {
+          "letra": "C",
+          "texto": "Una colección de datos relacionados, organizados lógicamente y accesibles"
+        },
+        {
+          "letra": "D",
+          "texto": "Un sistema operativo"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Una base de datos está diseñada para almacenar, estructurar y acceder a la información eficientemente.",
+      "referencia": "UT1, pág. 3 – “¿Qué es una base de datos?”"
+    },
+    {
+      "id": "BDD_SE_002",
+      "asignatura": "Bases de Datos",
+      "origen": "Simulacro Elam",
+      "enunciado": "¿Cuál es una ventaja de las bases de datos relacionales?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Dificultad en actualizaciones"
+        },
+        {
+          "letra": "B",
+          "texto": "Redundancia de datos"
+        },
+        {
+          "letra": "C",
+          "texto": "Flexibilidad en la estructura de datos"
+        },
+        {
+          "letra": "D",
+          "texto": "Baja eficiencia en grandes volúmenes"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "explicacion": "Las BD relacionales se adaptan fácilmente a cambios mediante relaciones entre tablas.",
+      "referencia": "UT2, pág. 8 – “Bases de datos relacionales”"
+    },
+    {
+      "id": "BDD_SE_003",
+      "asignatura": "Bases de Datos",
+      "origen": "Simulacro Elam",
+      "enunciado": "¿Qué función tiene un SGBD?",
+      "opciones": [
+        {
+          "letra": "A",
+          "texto": "Crear hardware especializado"
+        },
+        {
+          "letra": "B",
+          "texto": "Interfaz entre la base de datos y los usuarios"
+        },
+        {
+          "letra": "C",
+          "texto": "Diseñar páginas web"
+        },
+        {
+          "letra": "D",
+          "texto": "Almacenar solo archivos multimedia"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "explicacion": "El SGBD gestiona datos, controla acceso y ejecuta consultas.",
+      "referencia": "UT1, pág. 6 – “Sistemas Gestores de Bases de Datos”"
+    }
+  ]
+}
