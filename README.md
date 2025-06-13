@@ -35,17 +35,35 @@ Ha sido desarrollado como parte de su aprendizaje personal, con el objetivo de:
 
 ---
 
-## 🛠️ Instalación
+## 🛠️ Instalación y configuración
 
-1. Clona este repositorio
-2. Instala dependencias:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Crea un archivo `.env` con tu token de Telegram (puedes copiar el ejemplo):
-   ```
-   TELEGRAM_TOKEN=tu_token_aquí
-   ```
+### 1. Clona este repositorio
+
+```bash
+git clone https://github.com/tu-usuario/telegram_test_bot.git
+cd telegram_test_bot
+```
+
+### 2. Instala dependencias
+
+Asegúrate de tener Python 3 instalado y ejecuta:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configura el archivo `.env`
+
+El bot necesita un token de API de Telegram para funcionar.  
+Debes crear un archivo `.env` en la raíz del proyecto con esta estructura:
+
+```
+TELEGRAM_TOKEN=tu_token_aquí
+```
+
+> Puedes conseguir tu token hablando con [@BotFather](https://t.me/BotFather) en Telegram.
+
+También puedes encontrar un ejemplo de este archivo en `env_example.txt`.
 
 ---
 
@@ -90,6 +108,18 @@ python extractor/extractor.py
 
 ---
 
+## 📡 ¿Cómo ejecutar el bot?
+
+Una vez configurado todo, puedes lanzar el bot con:
+
+```bash
+python bot/bot.py
+```
+
+Si todo está correcto, el bot se conectará a Telegram y responderá a los comandos en el chat.
+
+---
+
 ## 🧪 Vista previa del bot
 
 ### Pantalla de bienvenida
@@ -109,11 +139,9 @@ python extractor/extractor.py
 
 ---
 
-## 📡 Ejecución
+## 🗃️ Base de datos de ejemplo
 
-```bash
-python bot/bot.py
-```
+El proyecto incluye una base de datos `resultados_ejemplo.db` con datos ficticios para poder ver cómo funciona el registro de estadísticas sin necesidad de usarlo con usuarios reales.
 
 ---
 
