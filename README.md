@@ -141,7 +141,7 @@ Si todo está correcto, el bot se conectará a Telegram y responderá a los coma
 
 ## 🗃️ Base de datos de ejemplo
 
-El proyecto incluye una base de datos `resultados_ejemplo.db` con datos ficticios para poder ver cómo funciona el registro de estadísticas sin necesidad de usarlo con usuarios reales.
+El proyecto incluye una base de datos `resultados.db` con datos ficticios para poder ver cómo funciona el registro de estadísticas sin necesidad de usarlo con usuarios reales.
 
 ---
 
