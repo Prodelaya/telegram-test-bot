@@ -130,4 +130,4 @@ python bot/bot.py
 ## 👨‍💻 Autor
 
 **Pablo Laya** — estudiante de 1º de DAM/DAW en Madrid  
-🖥️ Apasionado por la automatización, los bots educativos y el aprendizaje continuo.
+🖥️ Apasionado por la automatización, los bots de telegram y el aprendizaje continuo.
